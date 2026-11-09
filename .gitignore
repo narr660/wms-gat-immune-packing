@@ -1,0 +1,22 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+*.log
+checkpoints/
+runs/
+wandb/
+/content/
+
+
+# Colab / Python
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Temporary archives
+*.zip
+
+# Secrets
+.env
+.env.*

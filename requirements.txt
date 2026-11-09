@@ -1,0 +1,3 @@
+numpy>=1.24,<3
+pytest>=8,<10
+# Colab's preinstalled torch is preferred; install PyG after checking torch/CUDA compatibility.

@@ -1,0 +1,32 @@
+{
+  "sequences": 2100,
+  "items": 57273,
+  "category_counts": {
+    "일반": 23094,
+    "식품": 17100,
+    "위험물": 11355,
+    "화학품": 5724
+  },
+  "temperature_counts": {
+    "ambient": 38645,
+    "chilled": 14841,
+    "frozen": 3787
+  },
+  "sampled_pairs": 1000,
+  "pair_base_risk_counts": {
+    "medium": 411,
+    "compatible": 123,
+    "low": 231,
+    "forbidden": 210,
+    "high": 25
+  },
+  "pair_channel_counts": {
+    "temperature": 305,
+    "general": 372,
+    "contamination": 177,
+    "physical_damage": 405,
+    "odor": 15
+  },
+  "preserved_original_fields": true,
+  "note": "Synthetic rules; not real safety labels. Pair statistics sampled."
+}
