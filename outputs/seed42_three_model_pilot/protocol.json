@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "models": [
+    "Basic_GAT",
+    "Relation_GAT",
+    "Immune_GAT"
+  ],
+  "epochs": 3,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "device": "cpu",
+  "train_graphs": 120,
+  "validation_graphs": 40,
+  "test_graphs": 40,
+  "max_nodes": 12,
+  "directed_edges": true,
+  "target": "synthetic_oracle 0-4 risk grades",
+  "selection": "minimum validation loss",
+  "immune_feedback_mode": "M4 DCA path only; no observed exposure or aiNet memory injected during this supervised pilot",
+  "limitations": [
+    "Synthetic oracle labels",
+    "Single seed",
+    "Three training epochs",
+    "M4 aiNet memory benefit not measured",
+    "PCT-PPO packing optimization not trained",
+    "Model parameter counts differ"
+  ],
+  "elapsed_seconds": 33.74
+}

@@ -1,0 +1,260 @@
+{
+  "Basic_GAT": {
+    "validation": {
+      "loss": 0.3893640451133251,
+      "odor": {
+        "accuracy": 0.9869318181818182,
+        "macro_f1_5classes": 0.198684586788676,
+        "support": 5280,
+        "class_counts": {
+          "0": 5211,
+          "3": 6,
+          "2": 37,
+          "1": 26
+        }
+      },
+      "contamination": {
+        "accuracy": 0.740909090909091,
+        "macro_f1_5classes": 0.22032120777231318,
+        "support": 5280,
+        "class_counts": {
+          "3": 191,
+          "2": 470,
+          "0": 3831,
+          "1": 754,
+          "4": 34
+        }
+      },
+      "physical": {
+        "accuracy": 0.8414772727272727,
+        "macro_f1_5classes": 0.682561871771809,
+        "support": 5280,
+        "class_counts": {
+          "2": 514,
+          "4": 1159,
+          "3": 364,
+          "1": 827,
+          "0": 2416
+        }
+      },
+      "accuracy_micro": 0.856439393939394,
+      "accuracy_mean_relation": 0.856439393939394,
+      "macro_f1_mean_relation": 0.36718922211093274
+    },
+    "test": {
+      "loss": 0.4012253724038601,
+      "odor": {
+        "accuracy": 0.9818181818181818,
+        "macro_f1_5classes": 0.1981651376146789,
+        "support": 5280,
+        "class_counts": {
+          "0": 5184,
+          "3": 15,
+          "2": 50,
+          "1": 31
+        }
+      },
+      "contamination": {
+        "accuracy": 0.7517045454545455,
+        "macro_f1_5classes": 0.2240202134678171,
+        "support": 5280,
+        "class_counts": {
+          "0": 3897,
+          "1": 721,
+          "2": 449,
+          "3": 153,
+          "4": 60
+        }
+      },
+      "physical": {
+        "accuracy": 0.8581439393939394,
+        "macro_f1_5classes": 0.7141644059811183,
+        "support": 5280,
+        "class_counts": {
+          "1": 738,
+          "2": 554,
+          "4": 1161,
+          "0": 2477,
+          "3": 350
+        }
+      },
+      "accuracy_micro": 0.8638888888888889,
+      "accuracy_mean_relation": 0.8638888888888889,
+      "macro_f1_mean_relation": 0.3787832523545381
+    },
+    "best_checkpoint": "Basic_GAT_seed42_best.pt",
+    "parameter_count": 13775
+  },
+  "Relation_GAT": {
+    "validation": {
+      "loss": 0.3665974080562592,
+      "odor": {
+        "accuracy": 0.9869318181818182,
+        "macro_f1_5classes": 0.198684586788676,
+        "support": 5280,
+        "class_counts": {
+          "0": 5211,
+          "3": 6,
+          "2": 37,
+          "1": 26
+        }
+      },
+      "contamination": {
+        "accuracy": 0.7549242424242424,
+        "macro_f1_5classes": 0.2432281994763807,
+        "support": 5280,
+        "class_counts": {
+          "3": 191,
+          "2": 470,
+          "0": 3831,
+          "1": 754,
+          "4": 34
+        }
+      },
+      "physical": {
+        "accuracy": 0.8570075757575758,
+        "macro_f1_5classes": 0.7110378505698494,
+        "support": 5280,
+        "class_counts": {
+          "2": 514,
+          "4": 1159,
+          "3": 364,
+          "1": 827,
+          "0": 2416
+        }
+      },
+      "accuracy_micro": 0.8662878787878788,
+      "accuracy_mean_relation": 0.8662878787878787,
+      "macro_f1_mean_relation": 0.3843168789449687
+    },
+    "test": {
+      "loss": 0.37761871591210366,
+      "odor": {
+        "accuracy": 0.9818181818181818,
+        "macro_f1_5classes": 0.1981651376146789,
+        "support": 5280,
+        "class_counts": {
+          "0": 5184,
+          "3": 15,
+          "2": 50,
+          "1": 31
+        }
+      },
+      "contamination": {
+        "accuracy": 0.7607954545454545,
+        "macro_f1_5classes": 0.2401173248607905,
+        "support": 5280,
+        "class_counts": {
+          "0": 3897,
+          "1": 721,
+          "2": 449,
+          "3": 153,
+          "4": 60
+        }
+      },
+      "physical": {
+        "accuracy": 0.8721590909090909,
+        "macro_f1_5classes": 0.7453261280577196,
+        "support": 5280,
+        "class_counts": {
+          "1": 738,
+          "2": 554,
+          "4": 1161,
+          "0": 2477,
+          "3": 350
+        }
+      },
+      "accuracy_micro": 0.8715909090909091,
+      "accuracy_mean_relation": 0.8715909090909091,
+      "macro_f1_mean_relation": 0.39453619684439634
+    },
+    "best_checkpoint": "Relation_GAT_seed42_best.pt",
+    "parameter_count": 29202
+  },
+  "Immune_GAT": {
+    "validation": {
+      "loss": 0.35950568653643133,
+      "odor": {
+        "accuracy": 0.9869318181818182,
+        "macro_f1_5classes": 0.198684586788676,
+        "support": 5280,
+        "class_counts": {
+          "0": 5211,
+          "3": 6,
+          "2": 37,
+          "1": 26
+        }
+      },
+      "contamination": {
+        "accuracy": 0.7613636363636364,
+        "macro_f1_5classes": 0.25269265229954285,
+        "support": 5280,
+        "class_counts": {
+          "3": 191,
+          "2": 470,
+          "0": 3831,
+          "1": 754,
+          "4": 34
+        }
+      },
+      "physical": {
+        "accuracy": 0.8568181818181818,
+        "macro_f1_5classes": 0.7151890963219434,
+        "support": 5280,
+        "class_counts": {
+          "2": 514,
+          "4": 1159,
+          "3": 364,
+          "1": 827,
+          "0": 2416
+        }
+      },
+      "accuracy_micro": 0.8683712121212122,
+      "accuracy_mean_relation": 0.868371212121212,
+      "macro_f1_mean_relation": 0.38885544513672077
+    },
+    "test": {
+      "loss": 0.37711274698376657,
+      "odor": {
+        "accuracy": 0.9818181818181818,
+        "macro_f1_5classes": 0.1981651376146789,
+        "support": 5280,
+        "class_counts": {
+          "0": 5184,
+          "3": 15,
+          "2": 50,
+          "1": 31
+        }
+      },
+      "contamination": {
+        "accuracy": 0.7689393939393939,
+        "macro_f1_5classes": 0.2560965983847892,
+        "support": 5280,
+        "class_counts": {
+          "0": 3897,
+          "1": 721,
+          "2": 449,
+          "3": 153,
+          "4": 60
+        }
+      },
+      "physical": {
+        "accuracy": 0.8731060606060606,
+        "macro_f1_5classes": 0.7589289252669458,
+        "support": 5280,
+        "class_counts": {
+          "1": 738,
+          "2": 554,
+          "4": 1161,
+          "0": 2477,
+          "3": 350
+        }
+      },
+      "accuracy_micro": 0.8746212121212121,
+      "accuracy_mean_relation": 0.8746212121212121,
+      "macro_f1_mean_relation": 0.4043968870888046
+    },
+    "best_checkpoint": "Immune_GAT_seed42_best.pt",
+    "parameter_count": 40635
+  }
+}
