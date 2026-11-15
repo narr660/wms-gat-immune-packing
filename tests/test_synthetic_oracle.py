@@ -1,5 +1,5 @@
 
-from src.graph.synthetic_oracle import (
+from src.data.oracle import (
     odor_risk,
     contamination_risk,
     physical_risk,

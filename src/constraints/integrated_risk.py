@@ -1,7 +1,7 @@
 
 from typing import Dict, List, Optional
 
-from src.graph.synthetic_oracle import relation_risks
+from src.data.oracle import relation_risks
 from src.constraints.hard_constraints import (
     RuleBinding,
     evaluate_hard_constraints,
